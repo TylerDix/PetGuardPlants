@@ -12,6 +12,7 @@ struct CameraView: UIViewControllerRepresentable {
             super.init()
             configureSession()
         }
+        // small change
 
         func configureSession() {
             session = AVCaptureSession()
